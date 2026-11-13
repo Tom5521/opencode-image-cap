@@ -70,7 +70,7 @@ Counting covers the part shapes OpenCode uses (`media`) and the shapes the HTTP 
 ## Development
 
 ```bash
-node --test test/
+node --test "test/*.test.ts"
 ```
 
 `image-cap.ts` holds the pure logic (counting, trimming, limit resolution) so it can be tested without the OpenCode runtime.
