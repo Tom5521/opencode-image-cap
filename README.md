@@ -12,6 +12,11 @@ When that happens the chat stops working, and it stays broken: every new turn re
 
 The stored history is not modified — only what gets sent.
 
+> **Status:** this is a stopgap. OpenCode is working on a per-model `limit.images`
+> ([PR #62688](https://github.com/anomalyco/opencode/pull/62688),
+> [issue #48095](https://github.com/anomalyco/opencode/issues/48095)). Once that
+> lands, this plugin can be removed.
+
 ## Install
 
 ```bash
