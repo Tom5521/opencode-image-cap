@@ -1,0 +1,15 @@
+{
+  "name": "opencode-image-cap",
+  "version": "1.0.0",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "files": [
+    "index.ts",
+    "image-cap.ts"
+  ],
+  "dependencies": {
+    "@opencode/plugin": "latest"
+  }
+}
